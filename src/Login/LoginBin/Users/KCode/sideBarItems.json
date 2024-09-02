@@ -1,0 +1,191 @@
+[
+    {
+        "name": "Openings",
+        "key": "Openings",
+        "icon": "bi bi-envelope-open-fill",
+        "children": [
+            {
+                "name": "AsIs",
+                "url": "OpeningsAsIs.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "OpeningsWithGroups",
+                "url": "OpeningsWithGroups.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "Receipts",
+        "key": "Receipts",
+        "icon": "bi bi-clipboard-data-fill",
+        "children": [
+            {
+                "name": "AsIs",
+                "url": "ReceiptsAsIs.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "ReceiptsWithGroups",
+                "url": "ReceiptsWithGroups.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "Ledgers",
+        "key": "Ledgers",
+        "icon": "bi bi-calculator-fill",
+        "children": [
+            {
+                "name": "AsIs",
+                "url": "LedgersAsIs.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "All",
+                "url": "LedgersAll.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Single",
+                "url": "LedgersSingle.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "ForPrint",
+                "url": "LedgersForPrint.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Interest",
+                "url": "LedgersInterest.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Post",
+                "url": "LedgersPost.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "SingleSelect",
+                "url": "LedgersSingleSelect.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "DayBooks",
+        "key": "DayBooks",
+        "icon": "bi bi-credit-card-2-front",
+        "children": [
+            {
+                "name": "AsIs",
+                "url": "DayBooksAsIs.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "DayBooksAll",
+                "url": "DayBooksAll.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Period",
+                "url": "DayBooksSingle.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "TrailBalance",
+        "key": "TrailBalance",
+        "icon": "bi bi-file-earmark-medical-fill",
+        "children": [
+            {
+                "name": "Single",
+                "url": "TrailBalanceSingle.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Period",
+                "url": "TrailBalancePeriod.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Print",
+                "url": "TrailBalancePrint.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "ForPrint",
+                "url": "TrailBalanceForPrint.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "Accounts",
+        "key": "Accounts",
+        "icon": "bi bi-person-circle",
+        "children": [
+            {
+                "name": "AsIs",
+                "url": "AccountsAsIs.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "AccountsWithGroups",
+                "url": "AccountsWithGroups.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "Journals",
+        "key": "Journals",
+        "icon": "bi bi-journal-bookmark-fill",
+        "children": [
+            {
+                "name": "AsIs",
+                "url": "JournalsAsIs.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "JournalsWithGroups",
+                "url": "JournalsWithGroups.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "Payments",
+        "key": "Payments",
+        "icon": "bi bi-currency-exchange",
+        "children": [
+            {
+                "name": "AsIs",
+                "url": "PaymentsAsIs.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "PaymentsWithGroups",
+                "url": "PaymentsWithGroups.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "BalanceSheet",
+        "key": "BalanceSheet",
+        "icon": "bi bi-currency-exchange",
+        "children": [
+            {
+                "name": "period",
+                "url": "BalanceSheetPeriod.html",
+                "icon": "bi bi-plus-circle"
+            }
+            
+        ]
+    }
+]
