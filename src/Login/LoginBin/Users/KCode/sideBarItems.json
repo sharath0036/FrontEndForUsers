@@ -8,5 +8,15 @@
         "name": "ShowAllProtected",
         "url": "ShowAllProtected.html",
         "icon": "bi bi-envelope-open-fill"
+    },
+    {
+        "name": "LaundryShow",
+        "url": "LaundryShow.html",
+        "icon": "bi bi-envelope-open-fill"
+    },
+    {
+        "name": "LaundryUserRegister",
+        "url": "LaundryUserRegister.html",
+        "icon": "bi bi-envelope-open-fill"
     }
 ]
