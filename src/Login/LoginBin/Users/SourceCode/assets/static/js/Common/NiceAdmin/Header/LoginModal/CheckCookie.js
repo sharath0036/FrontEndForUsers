@@ -1,5 +1,7 @@
+import ConfigJson from '../../config.json' with {type: 'json'};
+
 const StartFunc = () => {
-    const myCookieValue = getCookie('KSAToken');
+    const myCookieValue = getCookie(ConfigJson.KTokenId);
 
     if ((myCookieValue === "") === false) {
         return true

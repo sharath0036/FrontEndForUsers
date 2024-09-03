@@ -1,15 +1,11 @@
-import { StartFunc as StartFuncCheckCookie } from "./CheckCookie.js";
-import { StartFunc as StartFuncSetFocus } from "./SetFocus.js";
+// import { StartFunc as StartFuncCheckCookie } from "./CheckCookie.js";
+// import { StartFunc as StartFuncSetFocus } from "./SetFocus.js";
 import { StartFunc as StartFuncAddListeners } from "./AddListeners/EntryFile.js";
 
-const StartFunc = ({ inSuccessFunc }) => {
-    let localCheckCookie = StartFuncCheckCookie();
+import { StartFunc as validate } from "./validate.js";
 
-    if (localCheckCookie === true) {
-        return true;
-    } else {
-        StartFuncSetFocus();
-    };
+const StartFunc = ({ inSuccessFunc }) => {
+    validate();
 
     StartFuncAddListeners({ inSuccessFunc });
 };
