@@ -2,7 +2,7 @@ let StartFunc = () => {
     let LocalUserName = jFLocalyourUsername();
     localStorage.setItem("BranchName", LocalUserName)
 
-    window.location.href = "/Washtex/Laundry/Branch/Orders/NewOrder/Customer.html";
+    window.location.href = "/NewOrders/HtmlFiles/Customer.html";
 };
 
 let jFLocalyourUsername = () => {
