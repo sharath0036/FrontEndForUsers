@@ -1,8 +1,11 @@
+import ConfigJson from '../../../../../Config.json' with {type: 'json'};
+
 let StartFunc = () => {
     let LocalUserName = jFLocalyourUsername();
     localStorage.setItem("BranchName", LocalUserName)
 
-    window.location.href = "/NewOrders/HtmlFiles/Customer.html";
+    //    window.location.href = "/NewOrders/HtmlFiles/Customer.html";
+    window.location.href = ConfigJson.RedirectToUrl;
 };
 
 let jFLocalyourUsername = () => {
