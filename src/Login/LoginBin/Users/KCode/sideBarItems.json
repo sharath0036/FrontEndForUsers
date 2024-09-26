@@ -10,13 +10,20 @@
         "icon": "bi bi-envelope-open-fill"
     },
     {
-        "name": "LaundryShow",
-        "url": "LaundryShow.html",
-        "icon": "bi bi-envelope-open-fill"
-    },
-    {
-        "name": "LaundryUserRegister",
-        "url": "LaundryUserRegister.html",
-        "icon": "bi bi-envelope-open-fill"
+        "name": "Laundry",
+        "key": "Laundry",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "LaundryShow",
+                "url": "LaundryShow.html",
+                "icon": "bi bi-envelope-open-fill"
+            },
+            {
+                "name": "LaundryUserRegister",
+                "url": "LaundryUserRegister.html",
+                "icon": "bi bi-envelope-open-fill"
+            }
+        ]
     }
 ]
