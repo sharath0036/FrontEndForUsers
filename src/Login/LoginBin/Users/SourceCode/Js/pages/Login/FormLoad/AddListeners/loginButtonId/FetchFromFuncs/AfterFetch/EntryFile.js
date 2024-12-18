@@ -1,20 +1,12 @@
-import ConfigJson from '../../../../../Config.json' with {type: 'json'};
+import { StartFunc as Status200 } from "./Status200.js";
+import { StartFunc as Status401 } from "./Status401.js";
 
-let StartFunc = () => {
-    let LocalUserName = jFLocalyourUsername();
-    localStorage.setItem("BranchName", LocalUserName)
+let StartFunc = async (inRes) => {
 
-    //    window.location.href = "/NewOrders/HtmlFiles/Customer.html";
-    window.location.href = ConfigJson.RedirectToUrl;
-};
-
-let jFLocalyourUsername = () => {
-    let jVarLocalyourUsername = 'yourUsername'
-    let jVarLocalHtmlId = document.getElementById(jVarLocalyourUsername);
-
-    if (jVarLocalHtmlId === null === false) {
-        return jVarLocalHtmlId.value.trim();
+    switch (inRes.status) {
+        case 200: Status200(); break;
+        case 401: Status401(await inRes.json()); break;
+        default: console.error(`Unhandled status code: ${inRes.status}`);
     };
 };
-
 export { StartFunc };
