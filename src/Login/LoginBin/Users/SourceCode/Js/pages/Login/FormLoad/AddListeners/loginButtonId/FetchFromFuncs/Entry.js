@@ -2,15 +2,15 @@ import { StartFunc as StartFuncFetchFuncs } from "./PostFetch.js";
 import { StartFunc as CheckFunc } from "./CheckFunc.js";
 import { StartFunc as StartFuncAfterFetch } from "./AfterFetch/EntryFile.js";
 
-let StartFunc = async () => {
-    let jVarLocalFromCheck = CheckFunc();
+let StartFunc = async (event) => {
+    event.preventDefault(); // Prevent the default form submission
+
+    let jVarLocalFromCheck = CheckFunc(event);
 
     if (jVarLocalFromCheck) {
-        let jVarLocalDataNeeded = await StartFuncFetchFuncs();
+        let jVarLocalRes = await StartFuncFetchFuncs();
 
-        if (jVarLocalDataNeeded.status === 200) {
-            StartFuncAfterFetch();
-        };
+        StartFuncAfterFetch(jVarLocalRes);
     };
 };
 
