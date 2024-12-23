@@ -19,7 +19,7 @@ let StartFunc = () => {
 
         case "WashFactory":
             localStorage.setItem("FactoryName", LocalUserName)
-            window.location.href = "/Laundry/Factory/Process/WashingVoucher/"
+            window.location.href = "/Laundry/Factory/Process/WashingVoucher/menu.html"
 
             break;
 
