@@ -27,16 +27,8 @@ let StartFunc = () => {
             localStorage.setItem("BranchName", LocalUserName)
             window.location.href = ConfigJson.RedirectToUrl;
             break;
-    }
-
-
+    };
 };
-
-// let LocalBranchFunch = () => {
-//     let LocalUserName = jFLocalyourUsername();
-//     localStorage.setItem("BranchName", LocalUserName)
-//     window.location.href = ConfigJson.RedirectToUrl;
-// };
 
 let jFLocalyourUsername = () => {
     let jVarLocalyourUsername = 'yourUsername'
