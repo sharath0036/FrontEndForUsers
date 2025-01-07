@@ -20,6 +20,16 @@
                 "icon": "bi bi-envelope-open-fill"
             },
             {
+                "name": "LaundryDelete",
+                "url": "LaundryDelete.html",
+                "icon": "bi bi-envelope-open-fill"
+            },
+            {
+                "name": "LaundryAlter",
+                "url": "LaundryAlter.html",
+                "icon": "bi bi-envelope-open-fill"
+            },
+            {
                 "name": "LaundryUserRegister",
                 "url": "LaundryUserRegister.html",
                 "icon": "bi bi-envelope-open-fill"
