@@ -1,7 +1,7 @@
-import urlJson from '../../../../url.json' with {type: 'json'};
+// import urlJson from '../../../../url.json' with {type: 'json'};
 
 let StartFunc = async () => {
-    let jVarLocalFetchUrl = urlJson.GetEndPoint;
+    let jVarLocalFetchUrl = `/Login/bin/Users`;
     let response = await fetch(jVarLocalFetchUrl);
 
     return await response;

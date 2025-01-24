@@ -1,5 +1,6 @@
 const StartFunc = async ({ inRowpk }) => {
-    let LocalUrl = `/${inRowpk}`;
+
+    let LocalUrl = `/Login/bin/Users/${inRowpk}`;
 
     let LocalFetchObj = {
         method: "DELETE",

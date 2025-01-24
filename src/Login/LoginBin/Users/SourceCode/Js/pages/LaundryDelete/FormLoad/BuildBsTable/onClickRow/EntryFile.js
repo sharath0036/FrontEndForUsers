@@ -5,7 +5,7 @@ const StartFunc = (row, $element, field) => {
 
     if (field === "KS-Opts") {
         if (window.confirm("Do you really want to Delete Item?")) {
-            StartFuncDeleteButton({ inRowpk: row.pk });
+            StartFuncDeleteButton({ inRowpk: row.UuId });
         };
     };
 };
